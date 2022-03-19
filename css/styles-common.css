@@ -98,6 +98,10 @@ body {
   margin-bottom: 7px;
 }
 /*HEADER*/
+
+header {
+  margin-left: 20px;
+}
 .desktop-none {
   display: none;
 }
@@ -265,6 +269,7 @@ body {
 #activity {
   margin-top: 50px;
   margin-bottom: 50px;
+  margin-left: 20px;
 }
 .bloc-activity {
   width: 100%;
@@ -402,8 +407,9 @@ body {
     margin-top: 50px;
     padding: 5%;
   }
-}
+  
 @media screen and (max-width: 770px) {
+
   .size-links {
     width: 90%;
   }
@@ -446,10 +452,12 @@ body {
   .img-activites1,
   .img-activites2,
   .img-activites3,
-  .img-activites4,
   .img-activites5,
   .img-activites6 {
     height: 200px;
+  }
+  .img-activites4 {
+    min-height: 520px;
   }
   .footer {
     flex-direction: column;
@@ -462,6 +470,9 @@ body {
   }
 }
 @media screen and (max-width: 600px) {
+  .mobile-align {
+    margin-left: 0px;
+  }
   .size-link {
     flex-direction: row;
   }
@@ -540,4 +551,5 @@ body {
     margin: 0;
     padding: 0;
   }
+} 
 }
